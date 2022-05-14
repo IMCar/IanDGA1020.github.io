@@ -1,0 +1,40 @@
+body{
+    background-color: rgb(168, 163, 134);
+}
+
+
+.title{
+    background-color:rgb(167, 155, 89);
+    border: 10px solid rgba(78, 69, 17, 0.603);
+    text-align: center;
+    vertical-align: middle;
+      
+}
+
+h1{
+     color: rgb(0, 0, 0);
+}
+
+h3{
+    color: rgb(41, 41, 41);
+}
+
+
+
+.pic{
+
+   display: flex;
+   margin-left: auto;
+   margin-right: auto;
+   width: 350px;
+}
+
+.video{
+    background-color: black;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+    
+ }
+
