@@ -1,72 +1,99 @@
-body{
+body {
     background-color: rgb(168, 163, 134);
 }
 
 
-.title{
-    background-color:rgb(167, 155, 89);
-    border: 10px solid rgba(78, 69, 17, 0.603);
+.title {
+
+
     text-align: center;
     vertical-align: middle;
-      
+
+    background:
+        radial-gradient(circle at 25% 0%, rgb(167, 155, 89) 1% 5%, transparent 10.2%),
+        radial-gradient(circle at 20% 50%, rgba(78, 69, 17, 0.603) 0 0%, transparent 8.2%),
+        radial-gradient(circle at 55% max(1%, 1px), rgb(168, 163, 134) 1%, transparent 7.2%),
+        radial-gradient(circle at 5% 5%, rgba(78, 69, 17, 0.603) 0 60%, transparent 120%),
+        rgb(167, 155, 89);
+
+
 }
 
-h3{
+
+p {
+    text-align: center;
+    vertical-align: middle;
+}
+
+h4 {
+    text-align: center;
+}
+
+
+h6 {
     color: rgb(41, 41, 41);
     text-align: center;
 }
 
 
-.pic{
 
-   display: flex;
-   margin-left: auto;
-   margin-right: auto;
-   width: 350px;
+.photoleft,
+.photoright {
+
+    height: 700px;
 }
 
-.bio{
-	display: table;
 
-}
-
-.text{
-	display: table-cell;
-	vertical-align: middle;
-    text-align: center;
- 
-}
-
-.textbox{
-    display: table-cell;
-    padding-left: 10px;
-    padding-right: 10px;
+.text {
     border-left: 5px solid rgba(78, 69, 17, 0.603);
     border-right: 5px solid rgba(78, 69, 17, 0.603);
 }
 
 
-.myphoto{
-	display: table-cell; 
-}
-
-.myphoto1, .myphoto2{
-
-    margin-left: 20px;
-    margin-right: 20px;
-
-}
-
-.clear{
-	clear: both;
-}
-
-.video{
+.video {
     background-color: black;
     display: flex;
     margin-left: auto;
     margin-right: auto;
     margin-top: 100px;
-    
- }
+    width: 640px;
+    height: 490px;
+}
 
+/*.video,
+.sax {
+    background-color: black;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+    width: 640px;
+    height: 490px;
+}*/
+
+.footer {
+    background-color: rgb(0, 0, 0);
+
+}
+
+.social-link a {
+    margin: 10px 10px;
+    color: rgba(255, 255, 255, 0.651);
+    border: 0;
+}
+
+
+.fb :hover,
+.fb :focus {
+    color: #3a6cd8;
+}
+
+.instagram :hover,
+.instagram :focus {
+    color: #B400A6;
+}
+
+.social-link i {
+    font-size: 25px;
+    vertical-align: middle;
+}
