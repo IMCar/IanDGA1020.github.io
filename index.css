@@ -11,14 +11,10 @@ body{
       
 }
 
-h1{
-     color: rgb(0, 0, 0);
-}
-
 h3{
     color: rgb(41, 41, 41);
+    text-align: center;
 }
-
 
 
 .pic{
@@ -27,6 +23,42 @@ h3{
    margin-left: auto;
    margin-right: auto;
    width: 350px;
+}
+
+.bio{
+	display: table;
+
+}
+
+.text{
+	display: table-cell;
+	vertical-align: middle;
+    text-align: center;
+ 
+}
+
+.textbox{
+    display: table-cell;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-left: 5px solid rgba(78, 69, 17, 0.603);
+    border-right: 5px solid rgba(78, 69, 17, 0.603);
+}
+
+
+.myphoto{
+	display: table-cell; 
+}
+
+.myphoto1, .myphoto2{
+
+    margin-left: 20px;
+    margin-right: 20px;
+
+}
+
+.clear{
+	clear: both;
 }
 
 .video{
